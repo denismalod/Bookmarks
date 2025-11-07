@@ -146,6 +146,7 @@ AUTHENTICATION_BACKENDS = [
 SOCIAL_AUTH_GOOGLE_OAUTH2_KEY = "306692717921-ganrj9ulhf5nu8rodoger75mvukbitsk.apps.googleusercontent.com"  # ИД клиента Google
 SOCIAL_AUTH_GOOGLE_OAUTH2_SECRET = secret_key
 
+# Trigger reload
 SOCIAL_AUTH_PIPELINE = [
     "social_core.pipeline.social_auth.social_details",
     "social_core.pipeline.social_auth.social_uid",
