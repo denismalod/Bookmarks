@@ -1,0 +1,19 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Python: Django",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "manage.py",
+            "cwd": "${workspaceFolder}/bookmarks",
+            "args": [
+                "runserver_plus",
+                "--cert-file",
+                "cert.crt"
+            ],
+            "django": true,
+            "justMyCode": true
+        }
+    ]
+}
