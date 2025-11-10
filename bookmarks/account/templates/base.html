@@ -52,12 +52,10 @@
         const csrftoken = Cookies.get('csrftoken');
         document.addEventListener('DOMContentLoaded', (event) => {
             // DOM загружена
-            {
-                % block domready %
-            } {
-                % endblock %
-            }
-        })
+            {% block domready %} 
+            {% endblock %}
+             }
+        );
     </script>
   </body>
 </html>
