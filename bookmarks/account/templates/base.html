@@ -18,9 +18,9 @@
           </li>
           <li {% if section == "images" %}class="selected"{% endif %}>
             <a href="{% url "images:list" %}">Images</a>
-          </li>
+          </li>        
           <li {% if section == "people" %}class="selected"{% endif %}>
-            <a href="#">People</a>
+            <a href="{% url "user_list" %}">People</a>
           </li>
         </ul>
       {% endif %}
@@ -52,8 +52,11 @@
         const csrftoken = Cookies.get('csrftoken');
         document.addEventListener('DOMContentLoaded', (event) => {
             // DOM загружена
-            {% block domready %} 
-            {% endblock %}
+            {
+                % block domready %
+            } {
+                % endblock %
+            }
         });
     </script>
   </body>
