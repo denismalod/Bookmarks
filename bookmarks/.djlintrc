@@ -1,7 +1,7 @@
 {
   "ignore": "H014,H015,T003,H005,H030,H031,H006,H013",
   "profile": "django",
-  "format_js": true,
+  "format_js": false,
   "js": {
     "indent_size": 4
   }
