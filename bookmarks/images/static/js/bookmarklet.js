@@ -1,4 +1,5 @@
-const siteUrl = 'https://tearfully-earthy-finfoot.cloudpub.ru/';
+const siteUrl = "https://scandalously-unusual-springer.cloudpub.ru/";
+// const siteUrl = "https://tearfully-earthy-finfoot.cloudpub.ru/";
 const styleUrl = siteUrl + 'static/css/bookmarklet.css';
 const minWidth = 250;
 const minHeight = 250;

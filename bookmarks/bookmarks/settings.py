@@ -25,7 +25,13 @@ SECRET_KEY = "django-insecure-_yol-h-+2&$_iv*4h9%iq5cjqdgfranu%_f^#($1d8%@ipo+#i
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ["mysite.com", "localhost", "127.0.0.1", "tearfully-earthy-finfoot.cloudpub.ru"]
+ALLOWED_HOSTS = [
+    "mysite.com",
+    "localhost",
+    "127.0.0.1",
+    "tearfully-earthy-finfoot.cloudpub.ru",
+    "scandalously-unusual-springer.cloudpub.ru",
+]
 
 
 # Application definition

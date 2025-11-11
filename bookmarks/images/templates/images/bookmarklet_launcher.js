@@ -1,7 +1,8 @@
-javascript:(function(){
+(function(){
   if(!window.bookmarklet) {
     bookmarklet_js = document.body.appendChild(document.createElement('script'));
-    bookmarklet_js.src = 'https://tearfully-earthy-finfoot.cloudpub.ru/static/js/bookmarklet.js?r='
+    {% comment %} bookmarklet_js.src = 'https://tearfully-earthy-finfoot.cloudpub.ru/static/js/bookmarklet.js?r=' {% endcomment %}
+    bookmarklet_js.src = 'https://scandalously-unusual-springer.cloudpub.ru/static/js/bookmarklet.js?r='
       + Math.floor(Math.random() * 9999999999999999);
     window.bookmarklet = true;
   }
