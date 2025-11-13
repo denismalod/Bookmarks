@@ -275,3 +275,22 @@ img.user-detail {
     font-style:italic;
     color:#ccc;
 }
+
+.logout-form {
+    display: inline;
+}
+
+.header-link {
+    background: none;
+    border: none;
+    padding: 0;
+    color: #f3f7cc;
+    text-decoration: none;
+    cursor: pointer;
+    font-family: helvetica, sans-serif;
+    font-size: 14px;
+}
+
+.header-link:hover {
+    color: #fff;
+}
